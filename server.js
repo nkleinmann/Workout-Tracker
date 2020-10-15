@@ -27,8 +27,9 @@ mongoose.connect( process.env.MONGODB_URI ,
 
 // Go through code/ discuss plan and how to set up mongoose using atlas (have been using mongodb locally)
 
-
+// immediately invoked function
 require("./routes/htmlRoutes")(app);
+require("./routes/apiRoutes")(app);
 
 
 
