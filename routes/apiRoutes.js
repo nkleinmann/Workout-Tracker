@@ -64,69 +64,9 @@ module.exports = function (app) {
             {new: true}
         )
         .then(dbWorkout => {
-            res.joson(dbWorkout);
+            res.json(dbWorkout);
         })
         .catch(err => {
             res.json(err);
         });
-        // const workout = new models.Workout(new Date(), []);
-        // workout.save(function (err, response) {
-        //     if (err) throw (err);
-        //     // saying response will return a json object
-        //     res.json(response);
-        // });
     });
-
-    // app.get("/api/workouts/range", function (req, res) {
-    //     const workout = new models.Workout(new Date(), []);
-    //     workout.save(function (err, response) {
-    //         if (err) throw (err);
-    //         // saying response will return a json object
-    //         res.json(response);
-    //     });
-    // });
-
-    // app.post("/api/workouts/range", function (req, res) {
-    //     models.Workout.findByIdAndUpdate(
-    //         params.id,
-    //         { $push: { exercises: body } },
-    //         { new: true }
-    //     )
-    //         .then(dbWorkout => {
-    //             res.json(dbWorkout);
-    //         })
-    //         .catch(err => {
-    //             res.json(err);
-    //         });
-    //     const workout = new models.Workout(new Date(), []);
-    //     workout.save(function (err, response) {
-    //         if (err) throw (err);
-    //         // saying response will return a json object
-    //         res.json(response);
-    //     });
-    // });
-}
-
-
-
-// router.post("/api/workouts/range", function(req, res) {
-//     // models.Workout.findByIdAndUpdate(
-//     //     params.id,
-//     //     { $push: {exercises: body} },
-//     //     {new: true}
-//     // )
-//     // .then(dbWorkout => {
-//     //     res.json(dbWorkout);
-//     // })
-//     // .catch(err => {
-//     //     res.json(err);
-//     // });
-//         const workout = new models.Workout(new Date(), []);
-//         workout.save(function(err, response){
-//             if (err) throw (err);
-//             // saying response will return a json object
-//             res.json(response);
-//         });
-//     });
-
-// module.exports = router;
