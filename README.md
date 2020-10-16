@@ -14,10 +14,10 @@ Link to deployed website: [Workout Tracker](#)
 1. [License](#license)
             
 ## Installation:
-node server.js
+Clone repository, install dependencies, run node server.js
             
 ## Usage:
-Workout tracking
+User Story: As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
 Screenshots:
 ![3](https://user-images.githubusercontent.com/65608809/96319907-edb2b380-0fde-11eb-9f9b-92c046faeda0.jpg)
@@ -33,12 +33,8 @@ Manual testing
 ## Questions:
 Email: nekleinmann@gmail.com
 
-
 GitHub: 
 [nkleinmann](https://github.com/nkleinmann)
-
-
-Please email me!
 
 ## License:
   ![MIT](https://img.shields.io/badge/license-MIT-blue)
