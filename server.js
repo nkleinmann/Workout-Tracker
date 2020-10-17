@@ -26,16 +26,6 @@ mongoose.connect(
   }
 );
 
-
-// mongoose.connect( process.env.MONGODB_URI , 
-//   { useNewUrlParser: true,
-//   useUnifiedTopology: true })
-  // used this resource to connect atlas https://medium.com/@sergio13prez/connecting-to-mongodb-atlas-d1381f184369
-
-// .then(() => {
-//   console.log("MongoDB Connected...")
-// }).catch(err => console.log(err));
-
 // immediately invokes function
 require("./routes/htmlRoutes")(app);
 require("./routes/apiRoutes")(app);
